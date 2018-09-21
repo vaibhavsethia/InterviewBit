@@ -25,7 +25,6 @@ vector<int> Solution::plusOne(vector<int> &A) {
             i--;
         }
     }
-
     while(*A.begin() == 0){
         A.erase(A.begin());
     }
