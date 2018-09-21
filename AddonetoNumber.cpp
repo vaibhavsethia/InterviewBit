@@ -29,6 +29,5 @@ vector<int> Solution::plusOne(vector<int> &A) {
     while(*A.begin() == 0){
         A.erase(A.begin());
     }
-
     return A;
 }
